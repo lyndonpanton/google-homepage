@@ -22,6 +22,35 @@ header nav ul {
     cursor: pointer;
     text-decoration: underline; }
 
+main form #buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  border: none; }
+  main form #buttons input {
+    flex: 1;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #F2F2F2;
+    font-size: 0.9em;
+    color: #727272; }
+  main form #buttons input:focus {
+    outline: none;
+    border: #77BBFF solid 1px; }
+
+main form #search {
+  display: block;
+  outline: none;
+  margin: 0 auto;
+  border: #E2E2E2 solid 1px;
+  border-radius: 40px;
+  padding: 10px 20px;
+  min-width: 300px;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+  font-size: 1em; }
+
 footer {
   background-color: #F2F2F2;
   font-size: 0.9em;
