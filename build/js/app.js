@@ -1,0 +1,1 @@
+window.onload=function(){form.addEventListener("submit",function(n){n.preventDefault()})};
