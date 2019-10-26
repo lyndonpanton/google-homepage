@@ -30,9 +30,9 @@ main {
   main form #buttons {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
     border: none; }
     main form #buttons input {
-      flex: 1;
       margin: 10px;
       border: none;
       border-radius: 5px;
@@ -46,7 +46,7 @@ main {
   main form #search {
     display: block;
     outline: none;
-    margin: 0 auto;
+    margin: 20px auto;
     border: #E2E2E2 solid 1px;
     border-radius: 40px;
     padding: 10px 20px;
