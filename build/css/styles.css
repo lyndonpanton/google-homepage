@@ -22,6 +22,10 @@ header nav ul {
     cursor: pointer;
     text-decoration: underline; }
 
+main img {
+  display: block;
+  margin: 20px auto; }
+
 main form #buttons {
   display: flex;
   flex-wrap: nowrap;
