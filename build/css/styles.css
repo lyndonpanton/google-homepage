@@ -38,7 +38,7 @@ main {
     border: none; }
     main form #buttons input {
       margin: 10px;
-      border: none;
+      border: #F2F2F2 solid 1px;
       border-radius: 5px;
       padding: 10px 20px;
       background-color: #F2F2F2;
