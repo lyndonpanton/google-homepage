@@ -1,1 +1,2 @@
-window.onload=function(){form.addEventListener("submit",function(n){n.preventDefault()})};
+// window.onload=function(){form.addEventListener("submit",function(e){e.preventDefault(),console.log(e.target.search.value)})};
+window.onload=function(){const form=document.getElementsByTagName("form")[0];form.addEventListener("submit", function(e) {e.preventDefault();const query=event.target.search.value.split(" ").join("+");window.open("https://www.google.com/search?q=" + query);});};
