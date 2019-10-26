@@ -1,0 +1,16 @@
+{
+  "name": "google-homepage",
+  "version": "1.0.0",
+  "description": "a replication of google's homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "replication",
+    "google",
+    "homepage"
+  ],
+  "author": "Lyndon Panton",
+  "license": "ISC"
+}
