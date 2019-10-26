@@ -29,3 +29,5 @@ gulp.task("scripts", async function() {
 		.pipe(ugligy())
 		.pipe(gulp.dest("build/js"));
 });
+
+gulp.task("default", gulp.series(["copyHTML", "imagemin", "sass", "scripts"]));
