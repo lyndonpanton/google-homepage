@@ -9,3 +9,9 @@ gulp.task("copyHTML", async function() {
 	gulp.src("src/*.html")
 		.pipe(gulp.dest("build"));
 });
+
+gulp.task("imagemin", async function() {
+	gulp.src("src/img/*")
+		.pipe(imagemin())
+		.pipe(gulp.dest("build/img"));
+});
