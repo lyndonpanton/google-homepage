@@ -22,3 +22,10 @@ gulp.task("sass", async function() {
 		.on("error", sass.logError)
 		.pipe(gulp.dest("build/css"));
 });
+
+gulp.task("scripts", async function() {
+	gulp.src("src/js/*.js")
+		.pipe(concat("app.js"))
+		.pipe(ugligy())
+		.pipe(gulp.dest("build/js"));
+});
