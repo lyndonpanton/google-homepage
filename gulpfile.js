@@ -34,7 +34,7 @@ gulp.task("default", gulp.series(["copyHTML", "imagemin", "sass", "scripts"]));
 
 gulp.task("watch", async function() {
 	gulp.watch("src/*.html", gulp.series(["copyHTML"]));
-	gulp.watch("src/images/*", gulp.series(["imagemin"]));
+	gulp.watch("src/img/*", gulp.series(["imagemin"]));
 	gulp.watch("src/sass/*.sass", gulp.series(["sass"]));
 	gulp.watch("src/js/*.js", gulp.series(["scripts"]));
 });
